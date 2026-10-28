@@ -1,0 +1,8 @@
+body { font-family: 'DM Sans', 'Noto Sans SC', sans-serif; }
+.section-head { align-items: flex-end; }
+.field { display: grid; gap: 6px; }
+.field label { color: var(--muted); font-size: 12px; font-weight: 700; }
+.arrival-fields { display: grid; gap: 6px; }
+.arrival-fields > label { color: var(--muted); font-size: 12px; font-weight: 700; }
+.arrival-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .arrival-inputs { grid-template-columns: 1fr; } }

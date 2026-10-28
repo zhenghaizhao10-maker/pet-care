@@ -1,0 +1,9 @@
+.comments { background: var(--yellow); padding-top: 78px; }
+.comments-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.comment-card { padding: 25px 22px 22px; min-height: 205px; border-radius: 22px; background: rgba(255,253,249,.78); box-shadow: 0 8px 25px rgba(99,90,46,.08); }
+.stars { color: var(--orange-deep); letter-spacing: .16em; font-size: 13px; }
+.comment-card p { margin: 18px 0 23px; color: var(--ink); font-size: 14px; line-height: 1.75; }
+.comment-author { display: flex; gap: 7px; color: var(--muted); font-size: 12px; }
+.comment-author strong { color: var(--ink); }
+.booking-cta { display: inline-block; margin-top: 22px; }
+@media (max-width: 800px) { .comments-grid { grid-template-columns: 1fr; } }
